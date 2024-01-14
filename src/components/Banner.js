@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Digital Marketing Solution</span>
                 <h1>{`Hi! I'm Plug`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "SEO", "Social Media Mangement", "Web Design and Development" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>In a world dominated by digital landscapes, your business's success hinges on a robust online presence. At [Your Agency Name], we are not just a digital marketing agency; we are your partners in the journey to digital excellence. Our team of experts is dedicated to transforming your online presence and driving unparalleled success for your brand.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
